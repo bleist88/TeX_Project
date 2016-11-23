@@ -1,4 +1,4 @@
-# Copyright (c) Geoffrey Lentner 2015. All Rights Reserved.
+##	TeX_Project Makefile
 
 ##	Build Variables and Commands
 
