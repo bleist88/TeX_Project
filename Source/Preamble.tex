@@ -1,0 +1,100 @@
+%%  Preamble
+
+%%  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+%%  Packages
+
+%%  Core Packages
+
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{natbib}
+\usepackage{esvect}
+\usepackage{braket}
+\usepackage{lipsum}
+
+%%  Local Packages
+
+\usepackage{Styles/ApJ/apjfonts}
+
+%%  = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+%%  Definitions
+
+%%  Notation
+
+\newcommand{\uppnote}[1]{$^{#1}$}
+\newcommand{\lownote}[1]{$_{#1}$}
+\newcommand{\scinote}[2]{#1 $\times$ 10$^{#2}$}
+
+%%  Math
+
+\newcommand{\be}{\begin{equation}}
+\newcommand{\ee}{\end{equation}}
+\newcommand{\bea}{\begin{eqnarray}}
+\newcommand{\eea}{\end{eqnarray}}
+
+\newcommand\slantfrac{\case}
+\newcommand\onehalf{\slantfrac{1}{2}}
+\newcommand\onethird{\slantfrac{1}{3}}
+\newcommand\twothirds{\slantfrac{2}{3}}
+\newcommand\onequarter{\slantfrac{1}{4}}
+\newcommand\threequarters{\slantfrac{3}{4}}
+
+\newcommand\integrate[2]{ \int #1 ~~ #2 }
+\newcommand\FT[2]{ \int \frac{d^{#2}#1}{(2\pi)^{\frac{#2}{2}}} }
+
+\newcommand\fv[2]{ #1 _{#2} }
+\newcommand\fV[2]{ #1 ^{#2} }
+
+%%  Units
+
+\newcommand{\arcmin}{\mbox{\ensuremath{^\prime}}}               % 0'0
+\newcommand{\arcsec}{\mbox{\ensuremath{^{\!\prime\prime}}}}     % 0''
+\newcommand{\farcm}{\mbox{\ensuremath{.\mkern-4mu^\prime}}}     % 0.'0
+\newcommand{\farcs}{\mbox{\ensuremath{.\!\!^{\prime\prime}}}}   % 0.''0
+\newcommand{\fdg}{\mbox{\ensuremath{.\!\!^\circ}}}              % 0.°0
+\newcommand{\arcdeg}{\ensuremath{^{\circ}}}                     % °
+\newcommand{\angs}{\mbox{\normalfont\AA}}                       % \AA
+
+%%  Variables
+
+\newcommand\ubvr{\mbox{$U\!BV\!R$}}     % UBVR system
+\newcommand\ub{\mbox{$U\!-\!B$}}        % U-B
+\newcommand\bv{\mbox{$B\!-\!V$}}        % B-V
+\newcommand\vr{\mbox{$V\!-\!R$}}        % V-R
+\newcommand\ur{\mbox{$U\!-\!R$}}        % U-R
+
+\newcommand\Sol{\odot}                  % Sun symbol, 0
+\newcommand\Mercury{\astro{\char1}}     % Mercury symbol, "1"
+\newcommand\Venus{\astro{\char2}}       % Venus symbol, "2"
+\newcommand\Earth{\oplus}               % Earth symbol, "3"
+\newcommand\Mars{\astro{\char4}}        % Mars symbol, "4"
+\newcommand\Jupiter{\astro{\char5}}     % Jupiter symbol, "5"
+\newcommand\Saturn{\astro{\char6}}      % Saturn symbol, "6"
+\newcommand\Uranus{\astro{\char7}}      % Uranus symbol, "7"
+\newcommand\Neptune{\astro{\char8}}     % Neptune symbol, "8"
+\newcommand\Pluto{\astro{\char9}}       % Pluto symbol, "9"
+\newcommand\Moon{\astro{\char10}}       % Moon symbol, "M"
+
+%%  Journal Abbreviations
+
+\newcommand{\actaa}{Acta Astronomica}
+\newcommand{\aj}{AJ}
+\newcommand{\apj}{ApJ}
+\newcommand{\apjs}{ApJS}
+\newcommand{\apjl}{ApJL}
+\newcommand{\aplett}{ApL}
+\newcommand{\aap}{A{\&}A}
+\newcommand{\aapr}{A\&A~Rev.}
+\newcommand{\aaps}{A{\&}AS}
+\newcommand{\araa}{ARAA}
+\newcommand{\icarus}{Icarus}
+\newcommand{\mnras}{MNRAS}
+\newcommand{\nat}{Nature}
+\newcommand{\pasp}{PASP}
+\newcommand{\pasj}{PASJ}
+\newcommand{\procspie}{Proc. SPIE}
+\newcommand{\ssr}{Space Science Reviews}
