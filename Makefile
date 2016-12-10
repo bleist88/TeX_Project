@@ -2,9 +2,9 @@
 
 ##	Build Variables and Commands
 
-title 		= Physics
+title 		= Project
 
-main    	= Book
+main    	= Main
 source  	= Source
 output  	= Output
 style		= Style
