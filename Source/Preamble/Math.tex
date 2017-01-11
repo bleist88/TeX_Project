@@ -1,0 +1,55 @@
+%%  Math Commands
+
+%%  Equation Blocks
+
+\newcommand \eq[1]{
+    \begin{equation} \begin{aligned} #1 \end{aligned} \end{equation}
+}
+
+%%  Relation Symbols
+
+\newcommand \larrow{
+    ~~\leftarrow~~
+}
+\newcommand \rarrow{
+    ~~\rightarrow~~
+}
+\newcommand \lrarrow{
+    ~~\leftrightarrow~~
+}
+
+%%  Fractions
+
+\newcommand \sfrac{
+    \case
+}
+
+%%  Decorators
+
+\newcommand \fslash[1]{
+    \not{\!#1}
+}
+
+%%  Calculus
+
+\newcommand \dbyd[1]{    %%  derivative fraction
+    \frac{d}{d #1}
+}
+\newcommand \pd{
+    \partial
+}
+\newcommand \dbyp[1]{    %%  partial derivative fraction
+    \frac{\partial}{\partial #1}
+}
+\newcommand \dmu{
+    \partial_{\mu}
+}
+\newcommand \dnu{
+    \partial_{\mu}
+}
+\newcommand \Int[1]{
+    \int #1~
+}
+\newcommand\FT[2]{
+    \Int{ \frac{d^{#2} #1}{(2\pi)^{\frac{#2}{2}}} }
+}
